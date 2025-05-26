@@ -1,0 +1,16 @@
+
+
+This is an example text document
+These are the top 5 words in this .txt file that should be printed
+
+hello hello hello hello hello hello hello hello
+bye bye bye bye bye bye bye
+yo yo yo yo yo yo
+cup cup cup cup cup
+ring ring ring ring
+
+
+
+These are 2 random words that should not be printed
+sleep sleep
+computer computer 
