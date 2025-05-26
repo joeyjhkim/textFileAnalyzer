@@ -1,15 +1,21 @@
 from collections import Counter
 #Counter is used to count the frequency of items (like words in a file)
 
+#this import statement is needed to let me use the os.path.isdir() to 
+# check whether the provided filename is a directory or a file
 import os
 
 def textFileAnalyzer(filename):
+    
     #using a try block to handle cases where the file might not exist
     try:
+        
         #this checks if the provided filename is a directory or a .txt file
         if os.path.isdir(filename):
             print("The path you entered is a directory, not a file. Please enter a valid file path.")
             return
+        
+        
         #the 'r' opens the file in read mode
         #the 'with' automatically closes the file when done
         with open(filename, 'r') as file:
