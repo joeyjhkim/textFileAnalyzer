@@ -62,3 +62,7 @@ textFileAnalyzer(filename)
 
 # .most_common(5) returns a list of the 5 most common words and their counts which is why 
 # we have both word and count in the for loop
+
+
+#os.path.isdir(filename)
+#returns a boolean value indicating whether the provided filename is a directory or not
